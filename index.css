@@ -1,0 +1,46 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "Roboto";
+}
+
+.Information {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  border-color: #0b69ff;
+  padding: 10px;
+}
+
+.Success {
+  background-color: #2dca73;
+  color: #ffffff;
+  border-radius: 5px;
+  border-color: #2dca73;
+  padding: 10px;
+}
+
+.Warning {
+  background-color: #ffb800;
+  color: #ffffff;
+  border-radius: 5px;
+  border-color: #ffb800;
+  padding: 10px;
+}
+
+.Error {
+  background-color: #ff0b37;
+  color: #ffffff;
+  border-radius: 5px;
+  border-color: #ff0b37;
+  padding: 10px;
+}
+
+img {
+  width: 10px;
+  height: 10px;
+}
